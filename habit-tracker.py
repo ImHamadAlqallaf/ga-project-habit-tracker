@@ -6,9 +6,7 @@ import pandas as pd
 try:
     st.logo("assets/habit-tracker-logo-2.png",size="large")
 except FileNotFoundError:
-    print("Nah cant find the file dawg")
-except:
-    print("didn't work bro check errors")
+    print("Logo file not found.")
     
 
 
