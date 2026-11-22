@@ -5,7 +5,7 @@ A simple, interactive web application built with **Streamlit** and **Pandas** to
 ## Live Demo & Links
 
 * **Deployed App:** [Habit Tracker Live App](https://hamados-ga-habit-tracker.streamlit.app/)
-* **Video Demonstration:** [Watch Video Walkthrough](PASTE_YOUR_VIDEO_LINK_HERE)
+* **Video Demonstration:** [Watch Video Walkthrough](https://youtu.be/-9IvHy7slcA)
 
 ## Features
 
