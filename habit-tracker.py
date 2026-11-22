@@ -1,15 +1,11 @@
 import streamlit as st
 import pandas as pd
-#import seaborn as sns
-#import matplotlib.pyplot as plt
 
 try:
     st.logo("assets/habit-tracker-logo-2.png",size="large")
 except FileNotFoundError:
     print("Logo file not found.")
     
-
-
 pages = {
     "Habits": [
         st.Page("python/add-habit.py", title="Add Habit"),
