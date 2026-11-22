@@ -2,6 +2,11 @@
 
 A simple, interactive web application built with **Streamlit** and **Pandas** to help users build daily habits, track streaks, and visualize progress over time.
 
+## Live Demo & Links
+
+* **Deployed App:** [Habit Tracker Live App](https://hamados-ga-habit-tracker.streamlit.app/)
+* **Video Demonstration:** [Watch Video Walkthrough](PASTE_YOUR_VIDEO_LINK_HERE)
+
 ## Features
 
 * **Add Habit:** Create new habits with a custom name, daily frequency, target goal, category, and start date.
