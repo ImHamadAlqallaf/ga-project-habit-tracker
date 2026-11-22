@@ -43,7 +43,10 @@ uploaded_file = st.file_uploader("Upload a Habits CSV", type="csv")
 #checks if uploaded_file does not contain empty values 
 if uploaded_file is not None:
     if st.button("Import CSV"): #creates import button and loads new dataset and overwrites old dataset.
-        new_df = pd.read_csv(uploaded_file)
-        new_df.to_csv("dataset/habit_tracker.csv", index=False)
-        st.success("CSV imported!")
-        st.rerun()
+        try:
+            new_df = pd.read_csv(uploaded_file)
+            new_df.to_csv("dataset/habit_tracker.csv", index=False)
+            st.success("CSV imported!")
+            st.rerun()
+        except pd.errors.EmptyDataError:
+            st.error("The uploaded CSV file is empty!")
